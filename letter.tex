@@ -1,0 +1,30 @@
+% koma_env.tex
+\documentclass[a4paper]{scrlttr2}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{graphicx}
+\setlength\parindent{0pt}
+
+\date{\today}
+\setkomavar{fromname}{Reddit Guy}
+\setkomavar{fromaddress}{13th Internet road\\Utqiagvik\\Alaska 99723 }
+\setkomavar{signature}{Reddit Guy}
+
+\begin{document}
+\begin{letter}{
+								\title\ \firstname\ \lastname\\
+								\street, \city\\
+								\state, \zip
+						   }
+    \KOMAoptions{fromphone=false, fromfax=false}
+    
+		\opening{Dear \title\ \firstname\ \lastname,}
+		This is an example letter. I hope you find it helpful.
+		\vspace{1cm}
+    \flushleft
+		\closing{Best regards,}
+\end{letter}
+\end{document}
