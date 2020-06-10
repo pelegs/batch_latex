@@ -22,7 +22,6 @@ class Question:
         self.q_str = q_str
         self.answers = []
         self.num_points = num_points
-        self.horizontal = horizontal
 
     def add_answer(self, answer):
         self.answers.append(answer)
@@ -69,6 +68,16 @@ if __name__ == '__main__':
     q3.add_answer(Answer('Electrons', False))
     q3.add_answer(Answer('Neutrons', True))
     q3.add_answer(Answer('Nucleons', False))
+    
+    q4 = Question(q_str='Which of the following elements are halogens? (choose all correct answers)',
+                  num_points=2,
+                  )
+    q4.add_answer(Answer('He', False))
+    q4.add_answer(Answer('Li', False))
+    q4.add_answer(Answer('Cl', True))
+    q4.add_answer(Answer('N', False))
+    q4.add_answer(Answer('Br', True))
+    q4.add_answer(Answer('Na', False))
 
-    questions = [q1, q2, q3]
+    questions = [q1, q2, q3, q4]
     pickle.dump(questions, open('questions.p', 'wb'))

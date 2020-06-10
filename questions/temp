@@ -1,0 +1,10 @@
+I just looked at the text you sent, and to be honest I don't think SQL is the best idea for that (unless you are planning to have millions of questions).
+
+Look at the new folder I added to the example git I linked a few weeks ago:
+https://github.com/pelegs/batch_latex/tree/master/questions
+
+In it, there's a file named qlib.py. This is a small library I wrote as an example. It implements a question class, which has a string variable (the question text itself), a list of answers and number of points. You can add as many answers as you want to each question. These answers are themselves a class instance, so that they could have a type (either their true or false), which can be used in some applications. For example, you can highlight the correct answer by passing `with_sol=True` to the `print_latex()` function of a Question instance. Or, a question can have multiple correct answers, etc.
+
+Now, when you run this script it will generate a file named `question.p`, which is a serialization of three questions (you can see them in the `main` part of the python script). This simply saves the objects to a file in a format python can later read.
+
+The file `questions.tex` simply takes two questions at random from the entire questions list (which only have 4 questions), and prints them. See the results as the file `questions.pdf`. I did it via running the `Makefile` (i.e. `make do`). I don't know which OS you use, but on Linux and MacOS it should work out of the box and generate two random questions out of the four saved in the `questions.p` file.
