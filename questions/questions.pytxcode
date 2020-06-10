@@ -4,6 +4,7 @@ import random
 all_questions = pickle.load(open('questions.p', 'rb'))
 two_questions = random.sample(all_questions, 2)
 for q in two_questions:
+	q.randomize_answers()
 	q.print_latex(with_sol=True)
 =>PYTHONTEX:SETTINGS#
 version=0.17

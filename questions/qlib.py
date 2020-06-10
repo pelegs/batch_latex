@@ -6,10 +6,19 @@ import pickle
 
 
 class Answer:
+    """
+    Has a text (a_str), can be either correct or not
+    (the variable "type" holds that info).
+    """
     def __init__(self, a_str='', type=False):
         self.a_str = a_str
         self.type = type
 
+    """
+    If with_sol is true and the answer is correct,
+    prints the answer in bold type. Otherwise prints the
+    answer normally.
+    """
     def print(self, with_sol=False):
         if with_sol and self.type == True:
             return '\\textbf{{{}}}'.format(self.a_str)
@@ -18,18 +27,31 @@ class Answer:
 
 
 class Question:
+    """
+    Has a text (q_str), and number of points.
+    Holds a list of answers (defauly empty).
+    """
     def __init__(self, q_str='', num_points=1):
         self.q_str = q_str
         self.answers = []
         self.num_points = num_points
 
     def add_answer(self, answer):
+        """
+        Adds answer to list of answers of the question.
+        """
         self.answers.append(answer)
 
     def randomize_answers(self):
+        """
+        Randomizes the order of the answers.
+        """
         shuffle(self.answers)
 
     def print_latex(self, with_sol=False):
+        """
+        Prints the question + answers in LaTeX format.
+        """
         out_str = '''
         (\\textbf{{{} points)}} {}
 
