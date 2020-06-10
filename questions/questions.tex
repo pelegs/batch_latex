@@ -1,0 +1,16 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+\usepackage{pythontex}
+
+\begin{document}
+\begin{pycode}
+from qlib import *
+import random
+all_questions = pickle.load(open('questions.p', 'rb'))
+two_questions = random.sample(all_questions, 2)
+for q in two_questions:
+	q.print_latex(with_sol=True)
+\end{pycode}
+\end{document}

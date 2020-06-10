@@ -1,0 +1,62 @@
+Which of the following statements is not correct regarding cathode rays ?
+A) The rays carry negative charge
+B) The charge/mass of these rays is considerably smaller than for positive rays
+C) The rays produce mechanical effect
+D) The charge/mass ratio is independent of the nature of the gas taken in the discharge tube.
+ 
+The number of protons, electrons and neutrons in 1735Cl- are respectively
+A) 17, 18, 18    B) 17, 17, 18   C) 17, 18, 17   D) 17, 18, 38
+ 
+The nucleides X and Y are isotonic to each other with mass numbers 70 and 72 respectively. If the atomic number of X is 34,then that of Y would be
+A) 32    B) 34   C) 36   D) 38
+ 
+Neutron was discovered by :
+A) J.J. Thomson    B) Chadwick   C) Rutherford   D) Millikan.
+ 
+Isobars have same number of :
+A) protons    B) electrons   C) nucleons   D) neutrons
+ 
+Which one of the following conclusions could not be derived from Rutherford’s \alpha-paticle scattering experiments?
+A) Most of the space in the atom is empty.
+B) The radius of the atom is about {10}^{-10} m while that of nucleus is {10}^{-15} m.
+C) Electrons move in a circular path of fixed energy called orbits.
+D) Electrons and the nucleus are held together by electrostatic forces of attraction.
+ 
+Which of the following statements is not correct about the characteristics of cathode rays ?
+A) They start from the cathode and move towards the anode.
+B) They travel in straight line in the absence of an external electrical or magnetic field.
+ 
+Which of the following statement about the electron is incorrect?
+A) It is a negatively charged particle
+B) The mass of electron is equal to the mass of neutron
+C) It is a basic constituent of all atoms
+D) It is a constituent of cathode rays
+ 
+Which of the following properties of atom could be explained correctly by Thomson model of atom ?
+A) Overall neutrality of atom.
+B) Spectra of hydrogen atom.
+C) Position of electrons, protons and neutrons in atom.
+D) Stability of atom.
+ 
+Two atoms are said to be isobars if
+A) they have same atomic number but different mass number.
+B) they have same number of electrons but different number of neutrons.
+C) they have same number of neutrons but different number of electrons
+D) sum of the number of protons and neutrons is same but the number of protons is different.
+ 
+Which of the following statement is not correct regarding electromagnetic spectrum ?
+A) The velocity of X-rays is more than that of microwaves
+B) Infra-red radiations have larger wavelength than cosmic rays
+C) The frequency of microwaves is less than that of ultra-violet rays
+D) X-rays have larger wave number than microwaves.
+ 
+The photoelectric emission from a surface starts only when the light incident upon the surface has certain minimum :
+A) intensity    B) wavelength   C) frequency   D) velocity
+The kinetic energy of the photoelectrons depends upon :
+A) intensity of radiation
+B) frequency of radiation
+C) the intensity and frequency of radiation
+D) None of these.
+ 
+Which of the following metal exhibits photoelectric effect readily ?
+A) Cs    B) Na   C) Li   D) Mg
